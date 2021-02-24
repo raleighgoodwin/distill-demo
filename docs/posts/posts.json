@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Distill!!! :~)",
-    "description": "Welcome to our new blog, Distill!!! :~). We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Raleigh Goodwin",
-        "url": "https://github.com/raleighgoodwin"
-      }
-    ],
-    "date": "2021-02-24",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-02-24T10:30:45-08:00",
-    "input_file": "welcome.utf8.md"
-  },
-  {
     "path": "posts/2021-02-24-some-stuff/",
     "title": "Some stuff!",
     "description": "A short description of the post.",
@@ -27,10 +10,34 @@
       }
     ],
     "date": "2021-02-24",
-    "categories": [],
-    "contents": "\r\nLook at this cool plot! Different font!\r\n\r\n\r\nlibrary(tidyverse)\r\n\r\nmtcars %>% \r\n  ggplot(aes(disp, mpg)) +\r\n  geom_point() +\r\n  geom_smooth() +\r\n  labs(title = \"cool!\")\r\n\r\n\r\n\r\n  theme(text = element_text(family = \"Roboto\")) # would work if I had this downloaded I guess\r\n\r\n\r\nList of 1\r\n $ text:List of 11\r\n  ..$ family       : chr \"Roboto\"\r\n  ..$ face         : NULL\r\n  ..$ colour       : NULL\r\n  ..$ size         : NULL\r\n  ..$ hjust        : NULL\r\n  ..$ vjust        : NULL\r\n  ..$ angle        : NULL\r\n  ..$ lineheight   : NULL\r\n  ..$ margin       : NULL\r\n  ..$ debug        : NULL\r\n  ..$ inherit.blank: logi FALSE\r\n  ..- attr(*, \"class\")= chr [1:2] \"element_text\" \"element\"\r\n - attr(*, \"class\")= chr [1:2] \"theme\" \"gg\"\r\n - attr(*, \"complete\")= logi FALSE\r\n - attr(*, \"validate\")= logi TRUE\r\n\r\n\r\n\r\n\r\n",
+    "categories": [
+      "visualization",
+      "modeling"
+    ],
+    "contents": "\r\nLook at this cool plot! Different font!\r\n\r\n\r\nlibrary(tidyverse)\r\n\r\nmtcars %>% \r\n  ggplot(aes(disp, mpg)) +\r\n  geom_point() +\r\n  geom_smooth() +\r\n  labs(title = \"cool!\") +\r\n  theme(text = element_text(family = \"serif\"))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-02-24-some-stuff/some-stuff_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-02-24T10:36:42-08:00",
-    "input_file": "some-stuff.utf8.md"
+    "last_modified": "2021-02-24T11:04:18-08:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Distill!!! :~)",
+    "description": "Welcome to our new blog, Distill!!! :~). We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Raleigh Goodwin",
+        "url": "https://github.com/raleighgoodwin"
+      }
+    ],
+    "date": "2021-02-24",
+    "categories": [
+      "visualization"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-02-24T11:05:14-08:00",
+    "input_file": {}
   }
 ]

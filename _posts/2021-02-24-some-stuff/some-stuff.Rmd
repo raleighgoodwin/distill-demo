@@ -6,6 +6,9 @@ author:
   - name: Raleigh Goodwin
     url: https://github.com/raleighgoodwin
 date: 02-24-2021
+categories:
+  - visualization
+  - modeling
 output:
   distill::distill_article:
     self_contained: false

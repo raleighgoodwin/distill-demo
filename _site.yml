@@ -1,4 +1,5 @@
 name: "distill-demo"
+base_url: https://github.com/raleighgoodwin/distill-demo
 title: "Distill!!! :~)"
 description: |
   Distill!!! :~)
@@ -9,4 +10,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - icon: fa fa-github
+      href: https://github.com/raleighgoodwin/distill-demo
 output: distill::distill_article
