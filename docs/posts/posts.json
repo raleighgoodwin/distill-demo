@@ -16,7 +16,7 @@
     ],
     "contents": "\r\nLook at this cool plot! Different font!\r\n\r\n\r\nlibrary(tidyverse)\r\n\r\nmtcars %>% \r\n  ggplot(aes(disp, mpg)) +\r\n  geom_point() +\r\n  geom_smooth() +\r\n  labs(title = \"cool!\") +\r\n  theme(text = element_text(family = \"serif\"))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-02-24-some-stuff/some-stuff_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-02-24T11:04:18-08:00",
+    "last_modified": "2021-02-24T11:16:31-08:00",
     "input_file": {},
     "preview_width": 1248,
     "preview_height": 768

@@ -24,7 +24,7 @@ knitr::opts_chunk$set(dev = "ragg_png")
 
 Look at this cool plot! Different font!
 
-```{r message=F}
+```{r message=F, layout = "l-page"}
 library(tidyverse)
 
 mtcars %>% 
